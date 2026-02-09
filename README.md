@@ -1,6 +1,3 @@
-# Studio-Beleza-do-Olhar
-Repositório do STUDIO BELEZA DO OLHAR, dedicado ao desenvolvimento do site institucional do estúdio. O projeto tem como objetivo apresentar os serviços oferecidos, informações de contato, localização, redes sociais e identidade visual, proporcionando uma experiência moderna, intuitiva e responsiva para os clientes.
-
 # 💖 Studio Beleza do Olhar
 
 Site institucional do **Studio Beleza do Olhar**, desenvolvido com foco em design moderno, navegação intuitiva e responsividade.  
