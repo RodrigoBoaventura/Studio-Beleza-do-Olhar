@@ -13,7 +13,7 @@ function Hero() {
   return (
     <section 
       id="home"
-      className="relative h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-pink-400 to-pink-300">
+      className="relative h-screen flex pt-20 items-center  justify-center overflow-hidden bg-gradient-to-br from-pink-400 to-pink-300">
       <div className="absolute inset-0 bg-gradient-to-br from-pink-400/90 to-pink-300/90" />
       
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
