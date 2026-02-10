@@ -35,7 +35,7 @@ function Testimonials() {
   );
 
   return (
-    <section id="depoimentos" className="py-16 bg-gradient-to-br from-pink-50 to-pink-100">
+    <section id="depoimentos" className="py-16 bg-gradient-to-br from-[#fdf2f5] to-[#f6dce3]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -47,7 +47,7 @@ function Testimonials() {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Depoimentos
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-yellow-400 to-yellow-600 mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-[#ca5d74] to-[#b84f65] mx-auto mb-6"></div>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
             O que nossas clientes dizem sobre nós
           </p>
@@ -62,7 +62,7 @@ function Testimonials() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               whileHover={{ scale: 1.05, y: -5 }}
-              className="bg-gradient-to-br from-pink-300 to-pink-400 rounded-xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300"
+              className="bg-gradient-to-br from-[#ca5d74] to-[#b84f65] rounded-xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300"
             >
               <StarRating rating={testimonial.rating} />
               <p className="text-white mb-4 leading-relaxed italic">

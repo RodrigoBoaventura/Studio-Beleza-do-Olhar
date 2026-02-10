@@ -13,8 +13,8 @@ function Hero() {
   return (
     <section 
       id="home"
-      className="relative min-h-[calc(100vh-96px)] pt-24 pb-24 flex items-center justify-center overflow-hidden bg-gradient-to-br from-pink-400 to-pink-300">
-      <div className="absolute inset-0 bg-gradient-to-br from-pink-400/90 to-pink-300/90" />
+      className="relative min-h-[calc(100vh-96px)] pt-24 pb-24 flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#ca5d74] to-[#e3a1b1]">
+      <div className="absolute inset-0 bg-gradient-to-br from-[#ca5d74]/90 to-[#e3a1b1]/90" />
       
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <motion.div
@@ -56,7 +56,7 @@ function Hero() {
         >
           <Button 
             onClick={() => scrollToSection('contato')}
-            className="bg-pink-600 hover:bg-pink-700 text-white px-8 py-6 text-lg rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
+            className="bg-[#ca5d74] hover:bg-[#b84f65] text-white px-8 py-6 text-lg rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
           >
             Agendar Agora
           </Button>

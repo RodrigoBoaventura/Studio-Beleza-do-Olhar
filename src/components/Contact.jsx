@@ -74,7 +74,7 @@ function Contact() {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Contato
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-yellow-400 to-yellow-600 mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-[#ca5d74] to-[#b84f65] mx-auto mb-6"></div>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
             Entre em contato e agende seu horário
           </p>
@@ -97,7 +97,7 @@ function Contact() {
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-pink-500 focus:ring-2 focus:ring-pink-200 outline-none transition-all bg-white text-gray-900"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#ca5d74]focus:ring-2 focus:ring-[#ca5d74]/30outline-none transition-all bg-white text-gray-900"
                   placeholder="Seu nome completo"
                 />
               </div>
@@ -166,7 +166,7 @@ function Contact() {
 
               <Button
                 type="submit"
-                className="w-full bg-pink-600 hover:bg-pink-700 text-white py-6 text-lg rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
+                className="w-full bg-[#ca5d74] hover:bg-[#b84f65] text-white py-6 text-lg rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
               >
                 Enviar Mensagem
               </Button>
@@ -180,14 +180,14 @@ function Contact() {
             transition={{ duration: 0.6 }}
             className="space-y-8"
           >
-            <div className="bg-gradient-to-br from-pink-50 to-white rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-[#fdf2f5] to-white rounded-2xl p-8 shadow-lg">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
                 Informações de Contato
               </h3>
 
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <div className="bg-pink-500 p-3 rounded-full">
+                  <div className="bg-[#ca5d74] p-3 rounded-full">
                     <Phone className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -197,7 +197,7 @@ function Contact() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="bg-pink-500 p-3 rounded-full">
+                  <div className="bg-[#ca5d74] p-3 rounded-full">
                     <Mail className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -207,7 +207,7 @@ function Contact() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="bg-pink-500 p-3 rounded-full">
+                  <div className="bg-[#ca5d74] p-3 rounded-full">
                     <MapPin className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -223,7 +223,7 @@ function Contact() {
             </div>
 
             <div className="bg-gray-200 rounded-2xl overflow-hidden h-64 shadow-lg">
-              <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-pink-100 to-pink-200">
+              <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-[#f6dce3] to-[#e8a1b1]">
                 <p className="text-gray-600 font-semibold">Mapa do Google (Em breve)</p>
               </div>
             </div>

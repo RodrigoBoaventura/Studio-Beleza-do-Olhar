@@ -10,7 +10,7 @@ function Footer() {
   };
 
   return (
-    <footer className="bg-gradient-to-br from-pink-600 to-pink-700 text-white">
+    <footer className="bg-gradient-to-br from-[#ca5d74] to-[#b84f65] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
@@ -20,7 +20,7 @@ function Footer() {
                 alt="Studio Beleza do Olhar Logo"
                 className="w-20 h-20"
               />
-              <span className="text-lg font-bold text-yellow-300">
+              <span className="text-lg font-bold text-white">
                 STUDIO BELEZA DO OLHAR
               </span>
             </div>
@@ -30,7 +30,7 @@ function Footer() {
           </div>
 
           <div>
-            <h3 className="text-lg font-bold mb-4 text-yellow-300">Contato</h3>
+            <h3 className="text-lg font-bold mb-4 text-white">Contato</h3>
             <div className="space-y-3 text-sm">
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />
@@ -43,7 +43,7 @@ function Footer() {
             </div>
           </div>
           <div>
-            <h3 className="text-lg font-bold mb-4 text-yellow-300">Links Rápidos</h3>
+            <h3 className="text-lg font-bold mb-4 text-white">Links Rápidos</h3>
             <div className="space-y-2 text-sm mb-6">
               <button
                 onClick={() => scrollToSection('servicos')}
@@ -65,13 +65,13 @@ function Footer() {
               </button>
             </div>
 
-            <h3 className="text-lg font-bold mb-4 text-yellow-300">Redes Sociais</h3>
+            <h3 className="text-lg font-bold mb-4 text-white">Redes Sociais</h3>
             <div className="flex gap-4">
               <a
                 href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white/20 hover:bg-white/30 p-2 rounded-full transition-all duration-300 hover:scale-110"
+                className="bg-white/15 hover:bg-white/25 p-2 rounded-full transition-all duration-300 hover:scale-110"
               >
                 <Instagram className="w-5 h-5" />
               </a>
@@ -79,7 +79,7 @@ function Footer() {
                 href="https://facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white/20 hover:bg-white/30 p-2 rounded-full transition-all duration-300 hover:scale-110"
+                className="bg-white/15 hover:bg-white/25 p-2 rounded-full transition-all duration-300 hover:scale-110"
               >
                 <Facebook className="w-5 h-5" />
               </a>
@@ -87,7 +87,7 @@ function Footer() {
                 href="https://wa.me/message/NWJGHVB32X2HP1"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white/20 hover:bg-white/30 p-2 rounded-full transition-all duration-300 hover:scale-110"
+                className="bg-white/15 hover:bg-white/25 p-2 rounded-full transition-all duration-300 hover:scale-110"
               >
                 <MessageCircle className="w-5 h-5" />
               </a>
