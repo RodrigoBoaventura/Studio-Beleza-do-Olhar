@@ -4,27 +4,27 @@ import { motion } from 'framer-motion';
 function Gallery() {
   const images = [
     {
-      url: 'public/studio01.png',
+      url: '/studio01.png',
   
     },
     {
-      url: 'public/studio02.png',
+      url: '/studio02.png',
     
     },
     {
-      url: 'public/studio03.png',
+      url: '/studio03.png',
   
     },
     {
-      url: 'public/studio04.png',
+      url: '/studio04.png',
    
     },
     {
-      url: 'public/studio05.png',
+      url: '/studio05.png',
      
     },
     {
-      url: 'public/studio06.png',
+      url: '/studio06.png',
     
     },
 
