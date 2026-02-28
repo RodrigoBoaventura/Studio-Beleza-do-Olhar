@@ -25,7 +25,7 @@ function Footer() {
               </span>
             </div>
             <p className="text-white/90 text-sm leading-relaxed">
-              Transformando e realçando a beleza natural através de técnicas profissionais e produtos premium.
+              Transformando e realçando a beleza natural através de técnicas profissionais.
             </p>
           </div>
 

@@ -5,25 +5,17 @@ import { Star } from 'lucide-react';
 function Testimonials() {
   const testimonials = [
     {
-      name: 'Maria Silva',
-      review: 'Adorei o trabalho de maquiagem! A profissional é extremamente talentosa e atenciosa. Me senti linda e confiante no meu casamento.',
+      review: 'Oi meu amor, você é simplesmente maravilhosa, adoro quando chego com autoestima baixa e você consegue levantar meu olhar, seus procedimentos são top e me encanta!! Você nasceu pra isso!! Você arrasa nos meus cílios e sobrancelha 👏😍❤️',
       rating: 5
     },
     {
-      name: 'Ana Costa',
-      review: 'O design de sobrancelhas é perfeito! Finalmente encontrei um lugar que entende exatamente o que eu preciso. Super recomendo!',
+      review: 'Boa tarde Darla, tudo bem? Eu amei os cílios e a unha que fizeram, vim até de sapatinho aberto hoje pro serviço para não estragar. ❤️ Eu amei 😍😍',
       rating: 5
     },
     {
-      name: 'Juliana Santos',
-      review: 'A extensão de cílios ficou maravilhosa e muito natural. Já faz 3 semanas e ainda está perfeita. Atendimento impecável!',
+      review: 'Menina!!! Amei seu trabalho. Impecável. Você ganhou uma cliente.',
       rating: 5
     },
-    {
-      name: 'Carla Oliveira',
-      review: 'O tratamento de skincare superou minhas expectativas. Minha pele nunca esteve tão bonita e saudável. Produtos de altíssima qualidade!',
-      rating: 5
-    }
   ];
 
   const StarRating = ({ rating }) => (
@@ -53,7 +45,7 @@ function Testimonials() {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {testimonials.map((testimonial, index) => (
             <motion.div
               key={testimonial.name}
@@ -68,9 +60,7 @@ function Testimonials() {
               <p className="text-white mb-4 leading-relaxed italic">
                 "{testimonial.review}"
               </p>
-              <p className="text-white font-bold text-center">
-                - {testimonial.name}
-              </p>
+          
             </motion.div>
           ))}
         </div>

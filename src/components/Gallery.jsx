@@ -4,33 +4,30 @@ import { motion } from 'framer-motion';
 function Gallery() {
   const images = [
     {
-      url: 'https://images.unsplash.com/photo-1601396253987-5a184958a04b',
-      alt: 'Maquiagem profissional aplicada em cliente'
+      url: 'public/studio01.png',
+  
     },
     {
-      url: 'https://images.unsplash.com/photo-1634449862841-8c6e970117e5',
-      alt: 'Design de sobrancelhas perfeito'
+      url: 'public/studio02.png',
+    
     },
     {
-      url: 'https://images.unsplash.com/photo-1601352351431-f0943b44bc4f',
-      alt: 'Extensão de cílios volumosa'
+      url: 'public/studio03.png',
+  
     },
     {
-      url: 'https://images.unsplash.com/photo-1601352231474-2d2f53d42bc7',
-      alt: 'Resultado de tratamento de skincare'
+      url: 'public/studio04.png',
+   
     },
     {
-      url: 'https://images.unsplash.com/photo-1674049406179-d7bf2c263e71',
-      alt: 'Maquiagem artística para eventos'
+      url: 'public/studio05.png',
+     
     },
     {
-      url: 'https://images.unsplash.com/photo-1519415387722-a1c3bbef716c',
-      alt: 'Lash lifting natural'
+      url: 'public/studio06.png',
+    
     },
-    {
-      url: 'https://images.unsplash.com/photo-1600634999623-864991678406',
-      alt: 'Resultado de consultoria de beleza'
-    }
+
   ];
 
   return (
