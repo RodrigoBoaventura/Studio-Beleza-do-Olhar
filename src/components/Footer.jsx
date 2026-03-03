@@ -75,14 +75,7 @@ function Footer() {
               >
                 <Instagram className="w-5 h-5" />
               </a>
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-white/15 hover:bg-white/25 p-2 rounded-full transition-all duration-300 hover:scale-110"
-              >
-                <Facebook className="w-5 h-5" />
-              </a>
+          
               <a
                 href="https://wa.me/message/NWJGHVB32X2HP1"
                 target="_blank"
@@ -95,12 +88,18 @@ function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-white/20 mt-8 pt-8 text-center">
-          <p className="text-sm text-white/90">
-            © 2026 Studio Beleza do Olhar. Todos os direitos reservados.
-          </p>
+        <div className="py-6 text-center text-sm">
+          © {new Date().getFullYear()} Todos os direitos reservados. <br />
+          <span>
+            Desenvolvido por{" "}
+            <span className="text-white font-semibold">
+              Rodrigo Boaventura
+            </span>{" "}
+            • Desenvolvimento de Sites Profissionais
+          </span>
         </div>
       </div>
+      
     </footer>
   );
 }
