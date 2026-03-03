@@ -68,7 +68,7 @@ function Footer() {
             <h3 className="text-lg font-bold mb-4 text-white">Redes Sociais</h3>
             <div className="flex gap-4">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/studio_beleza_do_olhar/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white/15 hover:bg-white/25 p-2 rounded-full transition-all duration-300 hover:scale-110"
